@@ -1,0 +1,354 @@
+*{
+  border: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+body { 
+  min-height: 100vh;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+ }
+
+.header-nav {
+  padding: 10px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.part-nav{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.after-nav {
+  height: 50px;
+  padding: 10px 16px;
+  background-color: #1e3932;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  box-shadow: 0 4px 6px -2px gray;
+}
+
+
+.starbucks-subtitle {
+  color: #f1f1f1;
+  font-weight: bold;
+  margin-left: 15rem;
+}
+
+.ml-2 {
+  margin-right: 2rem;
+}
+
+.icon-location {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.find-store:hover {
+  color: #008248;
+}
+
+.btn-signin {
+  padding: 5px 15px 5px 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 1rem;
+}
+
+.btn-signin:hover {
+  background-color:  #f3f1e7;
+}
+
+.btn-join {
+  padding: 5px 15px 5px 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.btn-join:hover {
+  background-color: #4f4f4f;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+main a {
+  color: white;
+}
+
+.main-cont {
+  height: 50rem;
+}
+
+.btn-join-main {
+  background-color: #d4e9e2;
+  padding: 10px 20px 10px 20px;
+  background-color: #00754a;
+  color: white;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/303324/pexels-photo-303324.jpeg?cs=srgb&dl=pexels-dom-j-303324.jpg&fm=jpg");
+  /* Set a specific height */
+  height: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.hero-text {
+  text-align: left;
+  margin-left: 20%;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+.mt-8 {
+  margin-top: 80px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.mb-4 {
+  margin-bottom: 40px;
+}
+
+.getting-started-cont {
+  width: 100%;
+}
+
+.cont-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.cont-1 {
+  width: 20%;
+  margin-right: 5%;
+}
+
+.cont-2 {
+  width: 20%;
+  margin-right: 5%;
+}
+
+.cont-3 {
+  width: 20%;
+}
+
+.mainSeparator {
+  padding-top: 20%;
+}
+
+.cont-favorites {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.cont-fav-stars {
+  width: 100%;
+  height: 40%;
+  background-color:#f1f8f6;
+  box-shadow: 0 4px 6px -2px black;
+}
+
+.cont-sub-items {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color:#d4e9e2;
+}
+
+.cont-btn-stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.btn-stars {
+  width: 5%;
+  background-color:#f1f8f6;
+}
+
+.btn-stars {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.star {
+  font-size: 14px;
+  color: #cba258;
+  margin-left: 3px;
+}
+
+.cont-drinks {
+  width: 20%;
+}
+
+.cont-extra {
+  width: 100%;
+  height: 70%;
+}
+
+.btn-learnmore {
+  background-color: white;
+  text-decoration: underline;
+  font-size: 16px;
+  color: #00754a;
+}
+
+.cont-info {
+  width: 100%;
+  text-align: center;
+  background-color: #f2f0eb;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  width: 80%;
+  justify-items: center;
+  margin-top: 70px;
+}
+
+.cont-scan {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-scan {
+  text-align: left;
+  margin-left: 20px;
+}
+
+hr {
+  display: block;
+  margin-top: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(169, 169, 169);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.cont-codes {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 60%;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-left: 25%;
+}
+
+input {
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+input::placeholder {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-submit {
+  margin-top: 20px;
+  width: 12%;
+  margin-left: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 5px 10px 5px 10px;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.link {
+  color: #00a862;
+}
+
+.cont-terms {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+}
