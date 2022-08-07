@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { IoLocationSharp } from "react-icons/io5";
+import { BsSpotify, BsFacebook, BsPinterest, BsInstagram, BsYoutube, BsTwitter } from "react-icons/bs";
+import { FaInstagramSquare } from "react-icons/fa";
 import "./index.css"
 import MainSeparator from './components/MainSeparator';
 
@@ -237,9 +239,93 @@ function App() {
         <section className='cont-terms'>
           <div className='cont-terms-left'>
             <p>At participating stores. Restrictions apply.</p>
+            <h2 className='mt-4'>EARNING STARS</h2>  
+            <p className='mt-2'>Stars cannot be earned on purchases of alcohol, Starbucks Cards or Starbucks Card reloads.</p>  
+            <p className='mt-2'>Earn 1 Star per $1 spent when you scan your member barcode in the app, then pay with cash, credit/debit cards or mobile wallets at participating stores. You can also earn 1 Star per $1 spent when you link a payment method and pay directly through the app.</p>    
+            <p className='mt-2'>Earn 2 Stars per $1 spent when you load funds and pay with your digital Starbucks Card in the app. You can also earn 2 Stars per $1 spent when you pay in-person at a participating store with your registered physical Starbucks Card or scan your member barcode in the app, and then use any physical Starbucks Card (regardless of whether it is registered) to complete the purchase.</p> 
+            <h3 className='mt-4'>BENEFITS</h3> 
+            <p className='mt-2'>Free refills available during same in-store visit only. To qualify for the Birthday Reward, you must have made at least one Star-earning transaction.</p>
+          </div>
+          <div className='cont-terms-right'>
+            <h3>TERMS OF USE</h3>
+            <p className='mt-2'>For full program details visit 
+            starbucks.com/rewards/terms
+            opens in new window.</p>
+            <p className='mt-2'>Starbucks® Rewards benefits are available at participating Starbucks stores. Not all stores have the ability to honor Rewards at this time. Visit the 
+            Starbucks Store Locator
+            opens in new window and search for locations honoring “Redeem Rewards”.</p>
+            <p className='mt-2'>Deposit and credit card products provided by JPMorgan Chase Bank, N.A. Member FDIC</p>
+            <h3 className='mt-4'>REDEEMING REWARDS</h3>
+            <p className='mt-2'>Rewards cannot be redeemed for alcoholic beverages or multi-serve items. Not all stores honor tiered Rewards. Select stores redeem 150 Stars for free food or drink items only.</p>
           </div>
         </section>
       </main>
+      <footer>
+        <nav className='nav-footer'>
+          <div className='nav-flex'>
+              <div className='nav-cont1'>
+                <h3>About Us</h3>
+                <p className='mt-4'>Our company</p>
+                <p className='mt-2'>Our coffee</p>
+                <p className='mt-2'>Stories and News</p>
+                <p className='mt-2'>Starbucks Archive</p>
+                <p className='mt-2'>Investor Relations</p>
+                <p className='mt-2'>Costumer Service</p>
+              </div>
+              <div className='nav-cont2'>
+                <h3>Carrers</h3>
+                <p className='mt-4'>Culture and Values</p>
+                <p className='mt-2'>Inclusion, Diversity, and Equity</p>
+                <p className='mt-2'>College Achievement Plan</p>
+                <p className='mt-2'>Alumni Community</p>
+                <p className='mt-2'>U.S Carrers</p>
+                <p className='mt-2'>International Careers</p>
+              </div>
+              <div className='nav-cont3'>
+                <h3>Social Impact</h3>
+                <p className='mt-4'>People</p>
+                <p className='mt-2'>Planet</p>
+                <p className='mt-2'>Environmental and Social Impact Reporting</p>
+              </div>
+              <div className='nav-cont4'>
+                <h3>For Business Partners</h3>
+                <p className='mt-4'>Landlord Support Center</p>
+                <p className='mt-2'>Suppliers</p>
+                <p className='mt-2'>Corporate Gift Card Sales</p>
+                <p className='mt-2'>Office and Foodservice Coffee</p>
+              </div>   
+              <div className='nav-cont5'>
+                <h3>Order and Pickup</h3>
+                <p className='mt-4'>Order on the App</p>
+                <p className='mt-2'>Order on the Web</p>
+                <p className='mt-2'>Delivery</p>
+                <p className='mt-2'>Order and Pickup Options</p>
+                <p className='mt-2'>Explore and Find Coffee for Home</p>
+              </div>
+          </div>
+          <hr/>
+          <div className='nav-icon'>
+            <BsSpotify className='icon-footer'/>
+            <BsFacebook className='icon-footer'/>
+            <BsPinterest className='icon-footer'/>
+            <FaInstagramSquare className='icon-footer'/>
+            <BsYoutube className='icon-footer'/>
+            <BsTwitter className='icon-footer'/>
+          </div>
+          <div className='secondary-links'>
+            <h3>Privacy Policy </h3>
+            <span className='ml-2 mr-2'> | </span>
+            <h3>Terms of Use </h3>
+            <span className='ml-2 mr-2'> | </span>
+            <h3>CA Supply Chain Act </h3>
+            <span className='ml-2 mr-2'> | </span>
+            <h3>Cookie Preferences</h3>
+          </div>
+          <div className='secondary-links'>
+            <p>© 2022 Starbucks Coffee Company. All rights reserved.</p>
+          </div>
+        </nav>
+      </footer>
     </>
   )
 }
